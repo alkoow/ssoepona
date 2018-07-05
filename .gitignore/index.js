@@ -17,7 +17,7 @@ bot.on('message', message => {
 bot.on('messageReactionAdd', (reaction, user) => {
     if(reaction.emoji.name === '✅') 
     console.log("Détecté")
-    bot.channels.get("464027343594323999").send("Tu es maintenant une Night Wolves ! Ahouuuuu !") 
+    bot.channels.get("464027343594323999").send("Bienvenue " + user + " ! Tu es maintenant une Night Wolves ! Ahouuuuu !") 
 });
 
 bot.login(process.env.TOKEN)
