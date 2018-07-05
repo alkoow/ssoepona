@@ -20,4 +20,4 @@ bot.on('messageReactionAdd', (reaction, user) => {
     bot.channels.get("464027343594323999").send("Tu es maintenant une Night Wolves ! Ahouuuuu !") 
 });
 
-bot.login('NDY0MzkyODg1MDEwNDMyMDEx.Dh-VZA.MSRS3Bk4rBCthkzvo8bwdBcwtwI')
+bot.login(process.env.TOKEN)
