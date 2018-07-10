@@ -11,9 +11,11 @@ bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === "!compris") {
 		// message.reply("Test");
+		message.delete();
                 bot.channels.get("464027343594323999").send("Bienvenue " + message.author.username + " ! Tu es maintenant une Night Wolves ! Ahouuuuu !");
 		let role = message.guild.roles.find('name', 'Famille');
 		message.member.addRole(role);
+		message
 	   }
 	}
 });
