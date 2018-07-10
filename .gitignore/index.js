@@ -10,7 +10,9 @@ bot.on('ready', function() {
 bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === "!compris")
-           message.reply('test')
+           let role = message.guild.roles.find('name', 'Famille')
+        message.member.addRole(role)
+		bot.channels.get("464027343594323999").send("Bienvenue " + user + " ! Tu es maintenant une Night Wolves ! Ahouuuuu !")
     }
 });
 
