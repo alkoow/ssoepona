@@ -10,9 +10,9 @@ bot.on('ready', function() {
 bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === "!compris") 
-		bot.channels("464027343594323999").send("Bienvenue ") 
-           let role = message.guild.roles.find('name', 'Famille')
-        message.member.addRole(role)
+		bot.channels("464027343594323999").send("Bienvenue ") ;
+           let role = message.guild.roles.find('name', 'Famille');
+        message.member.addRole(role);
 	}
 });
 
