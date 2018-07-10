@@ -17,7 +17,11 @@ bot.on('message', message => {
 		let role = message.guild.roles.find('name', 'Famille');
 		message.member.addRole(role);
 	   }
+		
+	    else {
+		    message.delete(); }
 	  }
+	    
 	    else {
 		    message.delete(); }
 	 }
