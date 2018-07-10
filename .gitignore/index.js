@@ -11,7 +11,7 @@ bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === "!compris") {
 		// message.reply("Test");
-bot.channels('464027343594323999').send('Bienvenue');
+                bot.channels.get('464027343594323999').send('Bienvenue');
 	   }
 	}
 });
