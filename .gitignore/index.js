@@ -16,12 +16,8 @@ bot.on('message', message => {
                 bot.channels.get("464027343594323999").send("Bienvenue " + message.author.username + " ! Tu es maintenant une Night Wolves ! Ahouuuuu !");
 		let role = message.guild.roles.find('name', 'Famille');
 		message.member.addRole(role);
-		else { 
-			message.delete(); }
 	   }
 	  }
-	    else {
-		    message.delete(); }
 	 }
 });
 
