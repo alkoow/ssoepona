@@ -8,7 +8,8 @@ bot.on('ready', function() {
 });
 
 bot.on('message', message => {
-    if(message.content[0] === PREFIX) {
+    if(message.channel.id === '464223504737239041') {
+	if(message.content[0] === PREFIX) {
         if(message.content === "!compris") {
 		// message.reply("Test");
 		message.delete();
@@ -17,7 +18,8 @@ bot.on('message', message => {
 		message.member.addRole(role);
 		message
 	   }
-	}
+	  }
+	 }
 });
 
 /* bot.on('messageReactionAdd', (reaction, user) => {
