@@ -18,6 +18,8 @@ bot.on('message', message => {
 		message.member.addRole(role);
 	   }
 	  }
+	    else {
+		    message.delete(); }
 	 }
 });
 
