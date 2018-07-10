@@ -12,8 +12,7 @@ bot.on('message', message => {
         if(message.content === "!compris") {
            let role = message.guild.roles.find('name', 'Famille');
         message.member.addRole(role);
-		bot.channels.get("464027343594323999").send("Bienvenue " + user + " ! Tu es maintenant une Night Wolves ! Ahouuuuu !");
- }   
+		bot.channels.get("464027343594323999").send("Bienvenue " + user + " ! Tu es maintenant une Night Wolves ! Ahouuuuu !") }
 	}
 });
 
