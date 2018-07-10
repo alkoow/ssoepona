@@ -11,7 +11,6 @@ bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === "!compris")
            message.reply('test')
-	  }
     }
 });
 
