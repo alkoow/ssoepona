@@ -11,7 +11,7 @@ bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === "!compris") {
 		// message.reply("Test");
-                bot.channels.get("464027343594323999").send("Bienvenue " + user + " ! Tu es maintenant une Night Wolves ! Ahouuuuu !");
+                bot.channels.get("464027343594323999").send("Bienvenue " + message.author.name + " ! Tu es maintenant une Night Wolves ! Ahouuuuu !");
 	   }
 	}
 });
