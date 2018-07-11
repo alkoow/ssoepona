@@ -4,6 +4,7 @@ const bot = new Discord.Client();
 const  PREFIX = "!";
 var date = new Date();
 var jour = date.getDay();
+var jour = new Array("dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi");
 var heure = date.getHours();
 var minutes = date.getMinutes();
 
