@@ -30,7 +30,7 @@ bot.on('message', message => {
 		    message.delete(); }
 	 }
 	if(message.content === "!date") {
-		message.reply('Il est ' + jour  + heure + minutes) }
+		message.reply('Il est ' + jour + heure + minutes) }
 });
 
 /* bot.on('messageReactionAdd', (reaction, user) => {
