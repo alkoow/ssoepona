@@ -48,9 +48,11 @@ bot.on('guildMemberAdd', member => {
 
 setInterval(function(){
 	if(jour === '3'){
+		 bot.channels.get("464027343594323999").send("Test Jour");
 		if(heure === '20'){
-			if(minutes === '53'){
-				 bot.channels.get("464027343594323999").send("Test");
+			 bot.channels.get("464027343594323999").send("Test Heure");
+			if(minutes === '56'){
+				 bot.channels.get("464027343594323999").send("Test Minutes");
 			}
 		}
 	}
