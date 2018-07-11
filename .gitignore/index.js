@@ -4,9 +4,8 @@ const bot = new Discord.Client();
 const  PREFIX = "!";
 
  // les noms de jours / mois
-     var jours = new Array("dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi");
 var date = new Date();
-var jour = jours[date.getDay();];
+var jour = date.getDay();
 var heure = date.getHours();
 var minutes = date.getMinutes();
 
