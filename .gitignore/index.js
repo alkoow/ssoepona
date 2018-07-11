@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 const  PREFIX = "!";
 var date = new Date();
-var jour = date.getDay(new Array("dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"));
+var jour = date.getDay();
 var heure = date.getHours();
 var minutes = date.getMinutes();
 
@@ -47,6 +47,10 @@ bot.on('guildMemberAdd', member => {
 });
 
 setInterval(function(){
+var date = new Date();
+var jour = date.getDay();
+var heure = date.getHours();
+var minutes = date.getMinutes();
 	if(jour === '3'){
 		 bot.channels.get("464027343594323999").send("Test Jour");
 		if(heure === '20'){
