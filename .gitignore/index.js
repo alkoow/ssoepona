@@ -2,6 +2,10 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 const  PREFIX = "!";
+var date = new Date();
+var jour = date.getDay();
+var heure = date.getHours();
+var minutes = date.getMinutes();
 
 bot.on('ready', function() {
     console.log("Prêt au décollage !")
@@ -26,7 +30,7 @@ bot.on('message', message => {
 		    message.delete(); }
 	 }
 	if(message.content === "!date") {
-		message.reply('Il est ' + jour + heure + minutes) }
+		message.reply('Il est ' + jour) }
 });
 
 /* bot.on('messageReactionAdd', (reaction, user) => {
@@ -43,10 +47,6 @@ bot.on('guildMemberAdd', member => {
 });
 
 setInterval(function(){
-var date = new Date();
-var jour = date.getDay();
-var heure = date.getHours();
-var minutes = date.getMinutes();
 	if(jour === '3')
 		 bot.channels.get("464027343594323999").send("Test Jour");
 		if(heure === '21')
