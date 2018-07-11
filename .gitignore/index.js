@@ -46,4 +46,14 @@ bot.on('guildMemberAdd', member => {
     }).catch(console.error);
 });
 
+setInterval(function(){
+	if(jour === '3'){
+		if(heure === '20'){
+			if(minutes === '53'){
+				 bot.channels.get("464027343594323999").send("Test");
+			}
+		}
+	}
+}, 60000)
+
 bot.login(process.env.TOKEN)
