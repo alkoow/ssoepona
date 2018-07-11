@@ -50,6 +50,7 @@ setInterval(function(){
 	var jour = date.getDay();
 	var heure = date.getHours();
 	var minutes = date.getMinutes();
+	console.log('Biiip')
 	if(jour === 3)
 		 bot.channels.get("464027343594323999").send("Test Jour");
 		if(heure === 21)
