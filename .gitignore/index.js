@@ -47,15 +47,12 @@ var date = new Date();
 var jour = date.getDay();
 var heure = date.getHours();
 var minutes = date.getMinutes();
-	if(jour === '3'){
+	if(jour === '3')
 		 bot.channels.get("464027343594323999").send("Test Jour");
-		if(heure === '20'){
+		if(heure === '21')
 			 bot.channels.get("464027343594323999").send("Test Heure");
-			if(minutes === '56'){
+			if(minutes === '15')
 				 bot.channels.get("464027343594323999").send("Test Minutes");
-			}
-		}
-	}
 }, 60000);
 
 bot.login(process.env.TOKEN)
