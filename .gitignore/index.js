@@ -51,7 +51,7 @@ setInterval(function(){
 	var heure = date.getHours();
 	var minutes = date.getMinutes();
 	console.log('Biiip')
-	if(jour === 3)
+	if(jour === 4)
 		 bot.channels.get("466726740904116235").send({embed: {
 			 color: EE1010,
 			 description: "Le Championnat de Moorland a commencé!"
