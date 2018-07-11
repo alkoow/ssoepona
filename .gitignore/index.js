@@ -2,10 +2,6 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 const  PREFIX = "!";
-var date = new Date();
-var jour = date.getDay();
-var heure = date.getHours();
-var minutes = date.getMinutes();
 
 bot.on('ready', function() {
     console.log("Prêt au décollage !")
@@ -46,7 +42,7 @@ bot.on('guildMemberAdd', member => {
     }).catch(console.error);
 });
 
-/* setInterval(function(){
+setInterval(function(){
 var date = new Date();
 var jour = date.getDay();
 var heure = date.getHours();
@@ -60,6 +56,6 @@ var minutes = date.getMinutes();
 			}
 		}
 	}
-}, 60000); */
+}, 60000);
 
 bot.login(process.env.TOKEN)
