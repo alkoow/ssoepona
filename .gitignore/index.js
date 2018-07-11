@@ -51,7 +51,7 @@ setInterval(function(){
 	var heure = date.getHours();
 	var minutes = date.getMinutes();
 	if(jour === 4) 
-		// bot.channels.get("466726740904116235").send({embed: {color: 3447003, description: 'Le Championnat de Moorland a commencé!' }}); 
+	 bot.channels.get("466726740904116235").send({embed: {color: 3447003, description: 'Le Championnat de Moorland a commencé!' }}); 
 		if(heure === 21) 
 			 bot.channels.get("466726740904116235").send("Test Heure");
 			if(minutes === 2) 
