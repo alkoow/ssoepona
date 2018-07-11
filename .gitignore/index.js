@@ -13,7 +13,7 @@ bot.on('message', message => {
         if(message.content === "!compris") {
 		// message.reply("Test");
 		message.delete();
-                bot.channels.get("464027343594323999").send("Bienvenue ${user} ! Tu es maintenant une Night Wolves ! Ahouuuuu !");
+                bot.channels.get("464027343594323999").send("Bienvenue " + message.author.toString() + " ! Tu es maintenant une Night Wolves ! Ahouuuuu !");
 		let role = message.guild.roles.find('name', 'Famille');
 		message.member.addRole(role);
 	   }
