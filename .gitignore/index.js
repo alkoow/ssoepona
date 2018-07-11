@@ -50,13 +50,13 @@ setInterval(function(){
 	var jour = date.getDay();
 	var heure = date.getHours();
 	var minutes = date.getMinutes();
-	if(jour === 4) 
-	 bot.channels.get("466726740904116235").send("Test Heure"); 
-		if(heure === 21) 
-			 bot.channels.get("466726740904116235").send("Test Heure");
-			if(minutes === 2) 
-				 bot.channels.get("464027343594323999").send("Test Minutes"); 
+	console.log('Biiip')
+	if(jour === 4)
+		 bot.channels.get("464027343594323999").send("Test Jour");
+		if(heure === 21)
+			 bot.channels.get("464027343594323999").send("Test Heure");
+			if(minutes === 2)
+				 bot.channels.get("464027343594323999").send("Test Minutes");
 }, 60000);
 
-	    
 bot.login(process.env.TOKEN)
