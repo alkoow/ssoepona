@@ -50,17 +50,12 @@ setInterval(function(){
 	var jour = date.getDay();
 	var heure = date.getHours();
 	var minutes = date.getMinutes();
-	if(jour === 4) {
-		 bot.channels.get("466726740904116235").send({embed: {
-			 color: 3447003,
-			 description: 'Le Championnat de Moorland a commencé!'
-		 }}); 
-		if(heure === 21) {
+	if(jour === 4) 
+		// bot.channels.get("466726740904116235").send({embed: {color: 3447003, description: 'Le Championnat de Moorland a commencé!' }}); 
+		if(heure === 21) 
 			 bot.channels.get("466726740904116235").send("Test Heure");
-			if(minutes === 2) {
-				 bot.channels.get("464027343594323999").send("Test Minutes"); }
-		}
-	}
+			if(minutes === 2) 
+				 bot.channels.get("464027343594323999").send("Test Minutes"); 
 }, 60000);
 
 	    
