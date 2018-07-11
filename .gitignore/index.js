@@ -4,10 +4,7 @@ const bot = new Discord.Client();
 const  PREFIX = "!";
 
  // les noms de jours / mois
-var date = new Date();
-var jour = date.getDay();
-var heure = date.getHours();
-var minutes = date.getMinutes();
+
 
 bot.on('ready', function() {
     console.log("Prêt au décollage !")
@@ -49,11 +46,15 @@ bot.on('guildMemberAdd', member => {
 });
 
 setInterval(function(){
-	if(jour === '3')
+	var date = new Date();
+	var jour = date.getDay();
+	var heure = date.getHours();
+	var minutes = date.getMinutes();
+	if(jour === 3)
 		 bot.channels.get("464027343594323999").send("Test Jour");
-		if(heure === '21')
+		if(heure === 21)
 			 bot.channels.get("464027343594323999").send("Test Heure");
-			if(minutes === '15')
+			if(minutes === 15)
 				 bot.channels.get("464027343594323999").send("Test Minutes");
 }, 60000);
 
