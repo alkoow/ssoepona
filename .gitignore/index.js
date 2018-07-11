@@ -55,10 +55,11 @@ setInterval(function(){
 		 bot.channels.get("466726740904116235").send({embed: {
 			 color: EE1010,
 			 description: "Le Championnat de Moorland a commencé!"
+		 }});
 		if(heure === 21)
 			 bot.channels.get("466726740904116235").send("Test Heure");
 			if(minutes === 2)
 				 bot.channels.get("464027343594323999").send("Test Minutes");
-}, 120000);
+}, 60000);
 
 bot.login(process.env.TOKEN)
