@@ -3,8 +3,9 @@ const bot = new Discord.Client();
 
 const  PREFIX = "!";
 var date = new Date();
-     var jours = new Array("dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi");
-     var mois = new Array("janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "decembre");
+var jour = date.getDay();
+var heure = date.getHours();
+var minutes = date.getMinutes();
 
 bot.on('ready', function() {
     console.log("Prêt au décollage !")
@@ -29,7 +30,7 @@ bot.on('message', message => {
 		    message.delete(); }
 	 }
 	if(message.content === "!date") {
-		message.reply('Il est ' + date) }
+		message.reply('Il est ' + jour  + heure + minutes) }
 });
 
 /* bot.on('messageReactionAdd', (reaction, user) => {
