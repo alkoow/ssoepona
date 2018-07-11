@@ -55,7 +55,7 @@ setInterval(function(){
 		 bot.channels.get("464027343594323999").send("Test Jour");
 		if(heure === 21)
 			 bot.channels.get("464027343594323999").send("Test Heure");
-			if(minutes === 15)
+			if(minutes === 2)
 				 bot.channels.get("464027343594323999").send("Test Minutes");
 }, 60000);
 
