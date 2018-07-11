@@ -54,6 +54,6 @@ setInterval(function(){
 			}
 		}
 	}
-}, 60000)
+}, 60000);
 
 bot.login(process.env.TOKEN)
