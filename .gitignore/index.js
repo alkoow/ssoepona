@@ -28,14 +28,16 @@ bot.on('message', message => {
 	    else {
 		    message.delete(); }
 	 }
-	if(message.content === "!date") {
+	// NE MARCHE PAS
+	/* if(message.content === "!date") {
 	bot.channels.get("466726740904116235").send({embed: {
 			 color: 15158332,
 			 title: 'Moorland',
 			 description: 'Le Championnat de Moorland commence!'
-		 }});
+		 }}); */
 });
 
+// NE SERT PAS
 /* bot.on('messageReactionAdd', (reaction, user) => {
     if(reaction.emoji.name === '✅') 
     console.log("Détecté")
