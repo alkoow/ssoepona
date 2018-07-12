@@ -80,7 +80,7 @@ setInterval(function(){
 			 description: 'Le Championnat commence dans 5 minutes !' }});
 		}
 		if(heure === 15) {
-			if(minutes === 0)
+			if(minutes === 0) {
 		 bot.channels.get("466726740904116235").send({embed: {
 			 color: 15158332,
 			 title: 'Valedale',
@@ -89,6 +89,7 @@ setInterval(function(){
 			 color: 15844367,
 			 title: 'Ecurie Jorvik',
 			 description: 'Le Championnat commence dans 30 minutes !' }});
+			}
 			if(minutes === 15)
 		 bot.channels.get("466726740904116235").send({embed: {
 			 color: 3447003,
