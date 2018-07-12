@@ -60,6 +60,6 @@ setInterval(function(){
 			 bot.channels.get("466726740904116235").send("Test Heure");
 			if(minutes === 2)
 				 bot.channels.get("466726740904116235").send("Test Minutes");
-}, 1200000);
+}, 10000);
 
 bot.login(process.env.TOKEN)
