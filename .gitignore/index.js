@@ -100,7 +100,7 @@ setInterval(function(){
 			 color: 15844367,
 			 title: 'Ecurie Jorvik',
 			 description: 'Le Championnat commence dans 5 minutes !' }});
-			if(minutes === 30)
+			if(minutes === 30) {
 		 bot.channels.get("466726740904116235").send({embed: {
 			 color: 15158332,
 			 title: 'Ecurie Jorvik',
@@ -109,6 +109,7 @@ setInterval(function(){
 			 color: 3066993,
 			 title: 'Moorland',
 			 description: 'Le Championnat commence dans 30 minutes !' }});
+			}
 			if(minutes === 45)
 		 bot.channels.get("466726740904116235").send({embed: {
 			 color: 3447003,
