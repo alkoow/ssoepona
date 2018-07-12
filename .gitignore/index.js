@@ -29,7 +29,11 @@ bot.on('message', message => {
 		    message.delete(); }
 	 }
 	if(message.content === "!date") {
-		message.reply('Il est ' + jour) }
+		bot.channels.get("466726740904116235").send({embed: {
+			 color: 0xa80b00,
+			 title: 'Moorland',
+			 description: 'Le Championnat de Moorland commence!'
+		 }});
 });
 
 /* bot.on('messageReactionAdd', (reaction, user) => {
