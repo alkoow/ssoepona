@@ -53,7 +53,7 @@ setInterval(function(){
 	console.log('Biiip')
 	if(jour === 4)
 		 bot.channels.get("466726740904116235").send({embed: {
-			 color: 128000000,
+			 color: 'DARK_RED',
 			 description: 'Le Championnat de Moorland débute dans 15 minutes'
 		 }});
 		if(heure === 21)
