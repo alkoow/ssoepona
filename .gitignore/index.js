@@ -75,6 +75,7 @@ setInterval(function(){
 			 title: 'Valedale',
 			 description: 'Le Championnat commence dans 5 minutes !' }});
 		}
+		
 		if(heure === 14) {
 			if(minutes === 30)
 		 bot.channels.get("466726740904116235").send({embed: {
@@ -92,6 +93,7 @@ setInterval(function(){
 			 title: 'Valedale',
 			 description: 'Le Championnat commence dans 5 minutes !' }});
 		}
+		
 		if(heure === 15) {
 			if(minutes === 0)
 		 bot.channels.get("466726740904116235").send({embed: {
@@ -132,6 +134,7 @@ setInterval(function(){
 			 title: 'Moorland',
 			 description: 'Le Championnat commence dans 5 minutes !' }});
 		}
+		
 		if(heure === 16) {
 			if(minutes === 0)
 				bot.channels.get("466726740904116235").send({embed: {
@@ -158,6 +161,7 @@ setInterval(function(){
 			 title: 'Championnat des Poneys',
 			 description: 'Le Championnat des Poneys commence !' }});
 		}
+		
 		if(heure === 17) {
 			if(minutes === 30)
 		 bot.channels.get("466726740904116235").send({embed: {
@@ -175,6 +179,7 @@ setInterval(function(){
 			 title: 'Fort Pinta & Moorland',
 			 description: 'Les Championnats commencent dans 5 minutes !' }});
 		}
+		
 		if(heure === 18) {
 			if(minutes === 0)
 				bot.channels.get("466726740904116235").send({embed: {
