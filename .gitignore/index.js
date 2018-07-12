@@ -28,12 +28,12 @@ bot.on('message', message => {
 	    else {
 		    message.delete(); }
 	 }
-	if(message.content === "!date") {
+/*	if(message.content === "!date") {
 		bot.channels.get("466726740904116235").send({embed: {
 			 color: 0xa80b00,
 			 title: 'Moorland',
 			 description: 'Le Championnat de Moorland commence!'
-		 }});
+		 }}); */
 });
 
 /* bot.on('messageReactionAdd', (reaction, user) => {
@@ -57,7 +57,7 @@ setInterval(function(){
 	console.log('Biiip')
 	if(jour === 4)
 		 bot.channels.get("466726740904116235").send({embed: {
-			 color: 0xa80b00,
+			 color: a80b00,
 			 title: 'Moorland',
 			 description: 'Le Championnat de Moorland commence!'
 		 }});
