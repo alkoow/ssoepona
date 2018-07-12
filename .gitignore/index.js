@@ -54,7 +54,7 @@ setInterval(function(){
 	if(jour === 4)
 		 bot.channels.get("466726740904116235").send({embed: {
 			 color: 0xa80b00,
-			 title, 'Moorland'
+			 title: 'Moorland',
 			 description: 'Le Championnat de Moorland commence!'
 		 }});
 		if(heure === 21)
