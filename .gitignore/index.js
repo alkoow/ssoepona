@@ -615,7 +615,272 @@ if(jour === 6) {
 			 title: 'Fort Pinta',
 			 description: 'Le Championnat de Firgrove commence !' }});
  }
-}	 
+}	
+if(jour === 0) {
+	if(heure === 7) {
+   if(minutes === 30)
+	    bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Valedale',
+			 description: 'Le Championnat commence dans 30 minutes !' }});
+   if(minutes === 45)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Valedale',
+			 description: 'Le Championnat commence dans 15 minutes !' }});
+   if(minutes === 55)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Valedale',
+			 description: 'Le Championnat commence dans 5 minutes !' }});
+ }
+ if(heure === 8) {	
+	 if(minutes === 0) {
+		  bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Valedale',
+			 description: 'Le Championnat de Valedale commence !' }});
+		  bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat commence dans 30 minutes !' }});
+   }
+   if(minutes === 15)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat commence dans 15 minutes !' }});
+   if(minutes === 25)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat commence dans 5 minutes !' }});
+   if(minutes === 30)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat des Poneys commence !' }});
+ }
+ if(heure === 10) {
+   if(minutes === 30)
+		   bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Firgrove',
+			 description: 'Le Championnat commence dans 30 minutes !' }});
+   if(minutes === 45)
+	   	   bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Firgrove',
+			 description: 'Le Championnat commence dans 15 minutes !' }});
+   if(minutes === 55)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Firgrove',
+			 description: 'Le Championnat commence dans 5 minutes !' }});
+ }
+ if(heure === 11) {
+   if(minutes === 0) 
+	   bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Firgrove',
+			 description: 'Le Championnat de Firgrove commence !' }});
+   if(minutes === 30)
+		   bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Silverglade',
+			 description: 'Le Championnat commence dans 30 minutes !' }});
+   if(minutes === 45)
+	   	   bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Silverglade',
+			 description: 'Le Championnat commence dans 15 minutes !' }});
+   if(minutes === 55)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Silverglade',
+			 description: 'Le Championnat commence dans 5 minutes !' }});
+ }
+ if(heure === 12) {
+	 if(minutes === 0)
+		  if(minutes === 0) 
+	   bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Silverglade',
+			 description: 'Le Championnat de Silverglade commence !' }});
+}
+ if(heure === 13) {
+   if(minutes === 0)
+	 bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Ecurie Jorvik',
+			 description: 'Le Championnat commence dans 30 minutes !' }});
+   if(minutes === 15)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Ecurie Jorvik',
+			 description: 'Le Championnat commence dans 15 minutes !' }});
+   if(minutes === 25)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Ecurie Jorvik',
+			 description: 'Le Championnat commence dans 5 minutes !' }});
+   if(minutes === 30) {
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Ecurie Jorvik',
+			 description: 'Le Championnat des Poneys commence !' }});
+	         bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Fort Pinta',
+			 description: 'Le Championnat commence dans 30 minutes !' }});
+   }
+   if(minutes === 45)
+	   	   bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Fort Pinta',
+			 description: 'Le Championnat commence dans 15 minutes !' }});
+   if(minutes === 55)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Fort Pinta',
+			 description: 'Le Championnat commence dans 5 minutes !' }});
+ }
+ if(heure === 14) {
+   if(minutes === 0) {
+	    bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Fort Pinta',
+			 description: 'Le Championnat de Fort Pinta commence !' }});
+	    bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat commence dans 30 minutes !' }});
+   }
+   if(minutes === 15)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat commence dans 15 minutes !' }});
+   if(minutes === 25)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat commence dans 5 minutes !' }});
+   if(minutes === 30)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat des Poneys commence !' }});
+ }
+ if(heure === 15) {
+   if(minutes === 30)
+	   bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Golden Hills & Moorland',
+			 description: 'Les Championnats commencent dans 30 minutes !' }});
+   if(minutes === 45)
+	   	   bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Golden Hills & Moorland',
+			 description: 'Les Championnats commencent dans 15 minutes !' }});
+   if(minutes === 55)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Golden Hills & Moorland',
+			 description: 'Les Championnats commencent dans 5 minutes !' }});
+ }
+ if(heure === 16) {
+   if(minutes === 0) {
+	    bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Golden Hills & Moorland',
+			 description: 'Les Championnats commencent !' }});
+	    bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat commence dans 30 minutes !' }});
+   }
+   if(minutes === 15)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat commence dans 15 minutes !' }});
+   if(minutes === 25)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat commence dans 5 minutes !' }});
+   if(minutes === 30)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat des Poneys commence !' }});
+ }
+ if(heure === 17) {
+   if(minutes === 0)
+	 bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Ecurie Jorvik',
+			 description: 'Le Championnat commence dans 30 minutes !' }});
+   if(minutes === 15)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Ecurie Jorvik',
+			 description: 'Le Championnat commence dans 15 minutes !' }});
+   if(minutes === 25)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Ecurie Jorvik',
+			 description: 'Le Championnat commence dans 5 minutes !' }});
+   if(minutes === 30) {
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat de Jorvik commence !' }});
+	     	 bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Fort Pinta & Moorland',
+			 description: 'Les Championnats commencent dans 30 minutes !' }});
+   }
+   if(minutes === 45)
+	   	   bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Fort Pinta & Moorland',
+			 description: 'Les Championnats commencent dans 15 minutes !' }});
+   if(minutes === 55)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Fort Pinta & Moorland',
+			 description: 'Les Championnats commencent dans 5 minutes !' }});
+ }
+ if(heure === 18) {
+   if(minutes === 0) {
+	   bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Championnat des Poneys',
+			 description: 'Le Championnat des Poneys commence !' }});
+	   bot.channels.get("466726740904116235").send({embed: {
+			 color: 3066993,
+			 title: 'Silverglade',
+			 description: 'Le Championnat commence dans 30 minutes !' }});
+   }
+   if(minutes === 15)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 3447003,
+			 title: 'Silverglade',
+			 description: 'Le Championnat commence dans 15 minutes !' }});
+   if(minutes === 25)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15844367,
+			 title: 'Silverglade',
+			 description: 'Le Championnat commence dans 5 minutes !' }});
+   if(minutes === 30)
+		 bot.channels.get("466726740904116235").send({embed: {
+			 color: 15158332,
+			 title: 'Silverglade',
+			 description: 'Le Championnat de Jorvik commence !' }});
+ }
+}
 }, 60000);
 
 bot.login(process.env.TOKEN)
