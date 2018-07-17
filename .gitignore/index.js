@@ -199,7 +199,7 @@ if(jour === 2) {
  if(heure === 15) {
 	 if(minutes === 0)
 	 bot.channels.get("466726740904116235").send({embed: {
-			 color: 15844367,
+			 color: 3066993,
 			 title: 'Ecurie Jorvik',
 			 description: 'Le Championnat commence dans 30 minutes !' }});
    if(minutes === 15)
