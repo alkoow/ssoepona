@@ -395,7 +395,7 @@ if(heure === 18) {
    if(minutes === 0) {
 	   bot.channels.get("466726740904116235").send({embed: {
 			 color: 15158332,
-			 title: 'Golden Hills & Moorland,
+			 title: 'Golden Hills & Moorland',
 			 description: 'Les Championnats commencent !' }});
 	    bot.channels.get("466726740904116235").send({embed: {
 			 color: 15844367,
