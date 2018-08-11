@@ -933,47 +933,47 @@ if(jour === 6) {
   if(minutes === 30) 
 	 bot.channels.get("469868995680665610").send({embed: {
 			 color: 3066993,
-			 title: 'Valedale',
+			 title: 'Firgrove',
 			 description: 'Le Championnat commence dans 30 minutes !' }});
    if(minutes === 45)
 	   	   bot.channels.get("469868995680665610").send({embed: {
 			 color: 3447003,
-			 title: 'Valedale',
+			 title: 'Firgrove',
 			 description: 'Le Championnat commence dans 15 minutes !' }});
    if(minutes === 55)
 		 bot.channels.get("469868995680665610").send({embed: {
 			 color: 15844367,
-			 title: 'Valedale',
+			 title: 'Firgrove',
 			 description: 'Le Championnat commence dans 5 minutes !' }});
 }
  if(heure === 19) {
 	  if(minutes === 0)
 	   bot.channels.get("469868995680665610").send({embed: {
 			 color: 15158332,
-			 title: 'Valedale',
-			 description: 'Le Championnat de Valedale commence !' }});
+			 title: 'Firgrove',
+			 description: 'Le Championnat de Firgrove commence !' }});
   if(minutes === 30) 
 	 bot.channels.get("469868995680665610").send({embed: {
 			 color: 3066993,
-			 title: 'Firgrove',
+			 title: 'Valedale',
 			 description: 'Le Championnat commence dans 30 minutes !' }});
    if(minutes === 45)
 	   	   bot.channels.get("469868995680665610").send({embed: {
 			 color: 3447003,
-			 title: 'Firgrove',
+			 title: 'Valedale',
 			 description: 'Le Championnat commence dans 15 minutes !' }});
    if(minutes === 55)
 		 bot.channels.get("469868995680665610").send({embed: {
 			 color: 15844367,
-			 title: 'Firgrove',
+			 title: 'Valedale',
 			 description: 'Le Championnat commence dans 5 minutes !' }});
  }
  if(heure == 20) {
 	 if(minutes === 0)
 		  bot.channels.get("469868995680665610").send({embed: {
 			 color: 15158332,
-			 title: 'Fort Pinta',
-			 description: 'Le Championnat de Firgrove commence !' }});
+			 title: 'Valedale',
+			 description: 'Le Championnat de Valedale commence !' }});
  }
 }	
 if(jour === 0) {
