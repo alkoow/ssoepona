@@ -17,7 +17,7 @@ bot.on('message', message => {
 		// message.reply("Test");
 		message.delete();
                 bot.channels.get("469866876965486615").send("Bienvenue " + message.author.toString() + " ! Tu es maintenant une Night Wolves ! Ahouuuuu !");
-		let role = message.guild.roles.find('name', 'Famille');
+		let role = message.guild.roles.find('name', 'Visiteurs');
 		message.member.addRole(role);
 	   }
 		
