@@ -16,7 +16,7 @@ bot.on('message', message => {
         if(message.content === "!compris") {
 		// message.reply("Test");
 		message.delete();
-                bot.channels.get("469866876965486615").send("http://www.mediafire.com/convkey/e339/4pt168sx50i5147zg.jpg");
+                bot.channels.get("469866876965486615").send("Bienvenue chez les Night Wolves " + message.author.toString() + " ! Passe un agréable moment avec nous ! Ahouuuuu !");
 		let role = message.guild.roles.find('name', 'VISITEURS');
 		message.member.addRole(role);
 	   }
