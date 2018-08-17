@@ -180,8 +180,8 @@ if(heure === 17) {
 }
 if(jour === 2) {
  if(heure === 13) {
-	 bot.channels.get("469868995680665610").send("http://www.mediafire.com/convkey/e339/4pt168sx50i5147zg.jpg");
-	  if(minutes === 30)
+	  if(minutes === 30) {
+		  bot.channels.get("469868995680665610").send("http://www.mediafire.com/convkey/e339/4pt168sx50i5147zg.jpg");
 		 bot.channels.get("469868995680665610").send({embed: {
 			 color: 3066993,
 			 title: 'Firgrove',
