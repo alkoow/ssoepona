@@ -16,7 +16,7 @@ bot.on('message', message => {
         if(message.content === "!compris") {
 		// message.reply("Test");
 		message.delete();
-                bot.channels.get("469866876965486615").send("Bienvenue " + message.author.toString() + " ! Tu es maintenant une Night Wolves ! Ahouuuuu !");
+                bot.channels.get("469866876965486615").send("http://www.mediafire.com/convkey/e339/4pt168sx50i5147zg.jpg");
 		let role = message.guild.roles.find('name', 'VISITEURS');
 		message.member.addRole(role);
 	   }
@@ -58,11 +58,13 @@ setInterval(function(){
 	console.log('Biiip')
 if(jour === 1) {
  if(heure === 13) {
-	 if(minutes === 30)
+	 if(minutes === 30) {
+		 bot.channels.get("469868995680665610").send("http://www.mediafire.com/convkey/e339/4pt168sx50i5147zg.jpg");
 		 bot.channels.get("469868995680665610").send({embed: {
 			 color: 3066993,
 			 title: 'Firgrove',
 			 description: 'Le Championnat commence dans 30 minutes !' }});
+		  }
 	if(minutes === 45)
 		 bot.channels.get("469868995680665610").send({embed: {
 			 color: 3447003,
@@ -80,6 +82,7 @@ if(jour === 1) {
 			 color: 15158332,
 			 title: 'Firgrove',
 			 description: 'Le Championnat de Firgrove commence !' }});
+		 bot.channels.get("469868995680665610").send("http://www.mediafire.com/convkey/e339/4pt168sx50i5147zg.jpg");
 		 bot.channels.get("469868995680665610").send({embed: {
 			 color: 15844367,
 			 title: 'Silverglade',
@@ -102,11 +105,13 @@ if(jour === 1) {
 			 description: 'Le Championnat de Silverglade commence !' }});
  }
  if(heure === 15) {
-   if(minutes === 0)
+   if(minutes === 0)  {
+	   bot.channels.get("469868995680665610").send("http://www.mediafire.com/convkey/e339/4pt168sx50i5147zg.jpg");
 	 bot.channels.get("469868995680665610").send({embed: {
 			 color: 15844367,
 			 title: 'Championnat des Poneys',
 			 description: 'Le Championnat commence dans 30 minutes !' }});
+   }
    if(minutes === 15)
 		 bot.channels.get("469868995680665610").send({embed: {
 			 color: 3447003,
@@ -122,6 +127,7 @@ if(jour === 1) {
 			 color: 15158332,
 			 title: 'Championnat des Poneys',
 			 description: 'Le Championnat des Poneys commence !' }});
+	   bot.channels.get("469868995680665610").send("http://www.mediafire.com/convkey/e339/4pt168sx50i5147zg.jpg");
 	   bot.channels.get("469868995680665610").send({embed: {
 			 color: 3066993,
 			 title: 'Fort Pinta & Moorland',
@@ -146,11 +152,13 @@ if(jour === 1) {
 			 description: 'Les Championnats commencent !' }});
  }
 if(heure === 17) {
-	if(minutes === 30)
+	if(minutes === 30) {
+		bot.channels.get("469868995680665610").send("http://www.mediafire.com/convkey/e339/4pt168sx50i5147zg.jpg");
 		bot.channels.get("469868995680665610").send({embed: {
 			 color: 3066993,
 			 title: 'Golden Hills & Moorland',
 			 description: 'Les Championnats commencent dans 30 minutes !' }});
+	}
 	if(minutes === 45)
 		 bot.channels.get("469868995680665610").send({embed: {
 			 color: 3447003,
